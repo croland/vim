@@ -1,7 +1,7 @@
 # Installing on your own machine
 
     cd ~
-    git clone http://github.com/zjrosen1/vim.git ~/.vim
+    git clone http://github.com/croland/vim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
     cd ~/.vim
