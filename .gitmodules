@@ -82,3 +82,6 @@
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
 	url = http://github.com/Shougo/vimproc
+[submodule "bundle/fsharp"]
+	path = bundle/fsharp
+	url = http://github.com/kongo2002/fsharp-vim.git
