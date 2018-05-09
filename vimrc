@@ -246,9 +246,6 @@ let g:ctrlp_split_window = 1 " <CR> = New Tab
 let g:multi_cursor_quit_key='<C-c>'
 " Markdown {{{2
 let g:vim_markdown_initial_foldlevel=1
-" NerdTree {{{2
-autocmd vimenter * if !argc() | NERDTree | endif " Load NERDTree by default for directory
-map <C-n><C-t> :NERDTreeToggle<CR>
 " Powerline {{{2
 let g:Powerline_symbols = 'fancy'
 " Syntastic {{{2
