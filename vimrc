@@ -35,7 +35,6 @@ nnoremap k gk
 
 " Appearance {{{2
 set number                          " Always show line numbers
-set listchars=tab:▸\ ,trail:·,eol:¬ " Use new symbols for tabstops and EOLs
 set ts=2 sts=2 sw=2 expandtab       " Default tab stops
 set showcmd                         " Shows incomplete command
 set novb noeb                       " Turn off visual bell and remove error beeps
@@ -53,7 +52,6 @@ set backspace=indent,eol,start
 
 " Colors and Theme {{{2
 set background=dark
-colorscheme badwolf
 
 " Auto Commands {{{1
 " Auto source vimrc on save  {{{2
@@ -253,13 +251,6 @@ autocmd vimenter * if !argc() | NERDTree | endif " Load NERDTree by default for 
 map <C-n><C-t> :NERDTreeToggle<CR>
 " Powerline {{{2
 let g:Powerline_symbols = 'fancy'
-" Rainbow Parens {{{2
-nmap <leader>r :RainbowParenthesesToggle<CR>
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-let g:rbpt_max = 16
-let g:rbpt_loadcmd_toggle = 0
 " Syntastic {{{2
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_loc_list_height = 5
